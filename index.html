@@ -11,7 +11,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Outline|Bungee+Shade|Montserrat:500,700" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/dev.css">
+        <link rel="stylesheet" href="css/blank.css">
 
     </head>
 
@@ -19,41 +19,106 @@
         <div id="intro">
             <h1 id="intro-text" class="unselectable">AHNAF TAHA</h1>
 
-            <div id="button-box">
+            <div id="intro-box" class="intro-web">
                 <button id="intro-button" class="unselectable work">
                     <i class="fas fa-briefcase"></i>
                     <h2 id="button-text">MY WORK</h2>
                 </button>
-
-                <button id="intro-button">
+                <button id="intro-button" class="intro-center about unselectable">
                     <i class="fas fa-user-circle"></i>
                     <h2 id="button-text">ABOUT ME</h2>
                 </button>
-
-                <button id="intro-button" class="contact-button">
+                <button id="intro-button" class="unselectable contact">
                     <i class="fas fa-envelope"></i>
                     <h2 id="button-text">CONTACT</h2>
                 </button>
             </div>
 
-            <div id="info-box">
-                <button id="info-button" onclick=" window.open('https://www.linkedin.com/in/ahnaftaha/','_blank')" class="unselectable linkedin">
-                    <i class="fab fa-linkedin"></i>
+            <div id="intro-box" class="intro-mobile">
+                <button id="intro-button" class="intro-center about unselectable">
+                    <i class="fas fa-user-circle"></i>
+                    <h2 id="button-text">ABOUT ME</h2>
                 </button>
-                <button id="info-button" onclick=" window.open('https://github.com/enoughtaha','_blank')" class="unselectable github">
-                    <i class="fab fa-github"></i>
+                <br>
+                <button id="intro-button" class="unselectable work">
+                    <i class="fas fa-briefcase"></i>
+                    <h2 id="button-text">MY WORK</h2>
                 </button>
-                <button id="info-button" onclick=" window.open('media/AhnafTahaResume.pdf','_blank')" class="unselectable resume">
-                    <i class="fas fa-file-alt"></i>
+                <button id="intro-button" class="unselectable contact">
+                    <i class="fas fa-envelope"></i>
+                    <h2 id="button-text">CONTACT</h2>
                 </button>
             </div>
+
+        <div id="about">
+            <div id="about-head">
+                <button id="about-ahnaf" class="ahnaf-b"><i class="fas fa-angle-double-up"></i></button>
+            </div>
+
+            <div id="about-box">
+                <div id="box-left">
+                    <i class="far fa-user-circle profile-circle"></i>
+                    <h1 id="profile-name" class="top">AHNAF TAHA</h1>
+                    <div class="gap"></div>
+                    <h1 id="profile-name" class="under">The Masters School '18</h1>
+                    <h1 id="profile-name" class="under">Claremont McKenna '22</h1>
+                </div>
+                <div class="gap2"></div>
+                <div id="box-right">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin laoreet elit at viverra. Integer sed molestie libero, non facilisis nisi. Sed nisl augue, porttitor vitae justo vitae, condimentum rutrum nibh. Nulla facilisi. Curabitur ac pulvinar lacus. Morbi varius, dui non accumsan condimentum, justo eros ornare odio, quis gravida magna metus et ligula. Suspendisse at luctus quam. Ut sit amet porta eros. Nunc efficitur a ipsum vitae tempus. Suspendisse id metus convallis nisl feugiat auctor nec ut diam. Sed at aliquet sapien, a volutpat mauris.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="work">
+            <div id="work-head">
+                <button id="work-ahnaf" class="ahnaf-b"><i class="fas fa-angle-double-right"></i></button>
+            </div>
+
+            <div id="work-box">
+                <p id="work-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin laoreet elit at viverra. Integer sed molestie libero, non facilisis nisi. Sed nisl augue, porttitor vitae justo vitae, condimentum rutrum nibh. Nulla facilisi. Curabitur ac pulvinar lacus. Morbi varius, dui non accumsan condimentum, justo eros ornare odio, quis gravida magna metus et ligula. Suspendisse at luctus quam. Ut sit amet porta eros. Nunc efficitur a ipsum vitae tempus. Suspendisse id metus convallis nisl feugiat auctor nec ut diam. Sed at aliquet sapien, a volutpat mauris.
+                </p>
+                <iframe width="40%" height="52.5%" src="https://www.youtube.com/embed/n8g8Q7HscAg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div id="contact-head">
+                <button id="contact-ahnaf" class="ahnaf-b"><i class="fas fa-angle-double-left"></i></button>
+            </div>
+
+            <div id="contact-box">
+                <form>
+                    <h1 id="form-text">Name:</h1>
+                    <input type="text" name="name">
+                    <h1 id="form-text">Email:</h1>
+                    <input type="text" name="email">
+                    <h1 id="form-text">Comment(s):</h1>
+                    <input class="hello" type="text" name="comment">
+</form>
+            </div>
+        </div>
+
+        <div id="info-box">
+            <button id="info-button" onclick=" window.open('https://www.linkedin.com/in/ahnaftaha/','_blank')" class="unselectable linkedin">
+                <i class="fab fa-linkedin"></i>
+            </button>
+            <button id="info-button" onclick=" window.open('https://github.com/enoughtaha','_blank')" class="unselectable github">
+                <i class="fab fa-github"></i>
+            </button>
+            <button id="info-button" onclick=" window.open('media/AhnafTahaResume.pdf','_blank')" class="unselectable resume">
+                <i class="fas fa-file-alt"></i>
+            </button>
         </div>
 
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-t7yHmUlwFrLxHXNLstawVRBMeSLcXTbQ5hsd0ifzwGtN7ZF7RZ8ppM7Ldinuoiif" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
-        <script src="dev.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.12/jquery.transit.min.js"></script>
+        <script src="js/blank.js"></script>
     </body>
 
 </html>
